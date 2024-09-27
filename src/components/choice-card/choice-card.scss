@@ -1,0 +1,25 @@
+@import '@/_colors'; // Use the @ alias to reference the colors folder
+
+.choice {
+  &__card {
+    border: 1px solid $border-color;
+    width: 100px;
+    height: 130px;
+    border-radius: 12px;
+    box-shadow: -1px 3px 6px -1px $shadw-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+    &--selected {
+      border: 1px solid $gray;
+    }
+  }
+
+  &__label {
+    font-size: small;
+    font-weight: 600;
+  }
+}

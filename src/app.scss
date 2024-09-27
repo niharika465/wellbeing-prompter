@@ -1,0 +1,22 @@
+@import '@/_colors'; // Use the @ alias to reference the colors folder
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $primary-color;
+  color: $white;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+}
+
+.button:hover {
+  box-shadow:
+    0 6px 6px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+

@@ -1,0 +1,32 @@
+[
+  {
+    "sku": "sku_101",
+    "value": "terrible",
+    "label": "Terrible",
+    "color": "red"
+  },
+  {
+    "sku": "sku_102",
+    "value": "bad",
+    "label": "Bad",
+    "color":"orange"
+  },
+  {
+    "sku": "sku_103",
+    "value": "alright",
+    "label": "Alright",
+     "color":"purple"
+  },
+  {
+    "sku": "sku_104",
+    "value": "pretty_good",
+    "label": "Pretty Good",
+    "color":"blue"
+  },
+  {
+    "sku": "sku_105",
+    "value": "fantastic",
+    "label": "Fantastic",
+    "color": "green"
+  }
+]
