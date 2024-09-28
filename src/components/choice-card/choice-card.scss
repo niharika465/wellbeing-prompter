@@ -3,7 +3,7 @@
 .choice {
   &__card {
     border: 1px solid $border-color;
-    width: 100px;
+    min-width: 100px;
     height: 130px;
     border-radius: 12px;
     box-shadow: -1px 3px 6px -1px $shadow-color;
