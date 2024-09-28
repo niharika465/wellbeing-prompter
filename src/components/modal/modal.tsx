@@ -1,4 +1,3 @@
-// MyComponent.tsx
 import React, { ReactElement } from 'react';
 import { SvgIconProps } from '@mui/material';
 import './modal.scss';
@@ -6,7 +5,7 @@ import { grey } from '@mui/material/colors';
 import classNames from 'classnames';
 import wellbeing from '../../mocks/wellbeing.json';
 import Icons, { IconKeys } from '../../icons/icons';
-import CustomButton from '../custon-button/custom-button';
+import CustomButton from '../custom-button/custom-button';
 import ChoiceCard from '../choice-card/choice-card';
 
 type OwnProps = {

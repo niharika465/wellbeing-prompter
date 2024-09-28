@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, getByText } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import Modal from '../modal';
 import wellbeing from '../../../mocks/wellbeing.json';
 

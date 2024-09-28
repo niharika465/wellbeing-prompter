@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './app.scss';
 import Modal from './components/modal/modal';
-import CustomButton from './components/custon-button/custom-button';
+import CustomButton from './components/custom-button/custom-button';
 
 const App: React.FC = () => {
   const [isOpened, setIsOpened] = useState(false);
