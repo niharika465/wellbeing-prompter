@@ -74,7 +74,7 @@ const Modal = ({
         <CustomButton
           label="Continue"
           onClick={handleClick}
-          disabled={Boolean(userChoice)}
+          disabled={Boolean(!userChoice)}
           styles={{
             base: 'btn',
             conditionals: {
